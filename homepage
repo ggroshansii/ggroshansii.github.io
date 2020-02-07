@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
+<head>
+  <meta charset="utf-8">
+  <title>Garth Groshans II personal website</title>
+</head>
+
+<body>
+  <h1>Garth Groshans II, PhD</h1>
+  <p>Currently learning <em>JavaScript, Python, HTML, and CSS</em></p>
+  <p> Web developer in training with a background in <strong>geology</strong>, <strong>soil science</strong>, <strong>GIS</strong>, and <strong>environmental science</strong>.</p>
+  <hr>
+  <h2><u>Education:</u></h2>
+  <ul>
+    <li><strong>Doctorate of Philosophy (PhD)</strong> - Forest Resources (Soil Science); Clemson University; <em>4.0 GPA</em></li>
+    <li><strong>Master of Science (MS)</strong> - Forest Resources (Soil Science); Clemson University; <em>4.0 GPA</em></li>
+    <li><strong>Bachelor of Science (BS)</strong> - Geology & Environmental Geosciences; College of Charleston; <em>3.4 GPA</em></li>
+  </ul>
+
+<h2><u>Computer Science Skills:</u></h2>
+<ul>
+<li><strong>Introduction to HTML</strong> - University of Michigan</li>
+<li><strong>Python Basics</strong> - University of Michigan</li>
+<li><strong>Python Data Structures</strong> - University of Michigan</li>
+<li><strong>Introduction to Data Science</strong> - IBM Certificate</li>
+<li><strong>IT Fundamentals</strong> - Google Certificate</li>
+</ul>
+
+</body>
+
+</html
