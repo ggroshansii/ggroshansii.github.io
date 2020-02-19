@@ -1,4 +1,12 @@
 
 .indention {
-  text-indent: 50px; 
+  text-indent: 50px;
+}
+
+h1{
+  font-family: Arial;
+}
+
+h3{
+  font-family: Arial;
 }
