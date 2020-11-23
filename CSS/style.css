@@ -37,8 +37,17 @@ body{
 
 #center-box{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #141414;
     height: 375px;
-    width: 350px;
+    width: 375px;
+}
+
+#welcome-heading{
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 22pt;
+    text-align: center;
+    padding: 12px;
+
 }
