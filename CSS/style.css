@@ -37,11 +37,11 @@ body {
 }
 
 #center-box {
-  border: 2px solid white;
+  border: 1px solid white;
   border-radius: 10px;
   background-color: #141414;
-  height: 40%;
-  width: 65%;
+  height: auto;
+  width: 75%;
 }
 
 #main-icon-container{
@@ -49,21 +49,51 @@ body {
     justify-content: center;
 }
 
+#secondary-icon-container{
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    grid-template-rows: 50px 50px;
+    justify-items: center;
+    justify-content: center;
+    margin: 15px;
+
+}
+
+
+p strong{
+    color: white;
+}
+
 .fa-laptop-code{
     color: white;
-    font-size: 30px;
+    font-size: 40px;
+    padding: 15px 0px 0px 0px;
+}
+
+.fab{
+    color: white;
+    font-size: 40px;
 }
 
 #welcome-heading {
-  color: white;
+  color: rgb(255, 255, 255);
   font-family: "Inconsolata", monospace;
-  font-size: 1.5em;
+  font-size: 20px;
   text-align: center;
   padding: 10px;
+  font-weight: 100;
+}
+
+#dev-container{
+    display: flex;
+
+    justify-content: center;
 }
 
 #dev-container p {
   font-family: "Source Code Pro", monospace;
+  width: 75%;
+  border-radius: 5px;;
   background-color: #33dcdd;
   color: #1c4b43;
   padding: 5px;
@@ -71,8 +101,29 @@ body {
   text-align: center;
 }
 
-hr{
-    border: 2px solid white;
+#footer-container{
+    height: 100%;
+}
+
+.footer-element{
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#cv{
+    background-color: #33dcdd;
+    color: black;
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+    padding: 12px 30px;
+
+}
+
+#cv:hover{
+    text-decoration: underline;
+    font-stretch: expanded;
 }
 
 @media only screen and (max-width: 768px) {
