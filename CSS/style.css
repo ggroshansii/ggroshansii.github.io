@@ -112,18 +112,28 @@ p strong{
     align-items: center;
 }
 
-#cv{
+
+
+.footer-link{
     background-color: #33dcdd;
     color: black;
     font-family: "Inconsolata", monospace;
     text-decoration: none;
-    padding: 12px 30px;
-
+    padding: 5px 30px 15px 30px;
+    margin: 0px 10px;
 }
 
-#cv:hover{
+.footer-link:hover{
     text-decoration: underline;
     font-stretch: expanded;
+}
+
+.footer-icon i{
+  font-size: 24px;
+  padding: 0px 5px 0px 0px;
+  margin: 0px;
+  border: 2px solid red;
+
 }
 
 @media only screen and (max-width: 768px) {
