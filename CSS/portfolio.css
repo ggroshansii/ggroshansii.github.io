@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  header {
+    background-color: #141414;
+    border-bottom: 2px solid white;
+  }
+  
+  footer {
+    background-color: #141414;
+    border-top: 2px solid white;
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  html,body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header-container{
+    height: 100vh;
+  
+  }
+  
+  nav{
+    height: 100vh;
+  }
+  
+  .header-link{
+    display: inline-block;
+    background-color: #33dcdd;
+    color: black;
+    font-family: "Inconsolata", monospace;
+    text-decoration: none;
+    width: 100px;
+    height: 47px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0px 5px;
+  
+  }
+  
+  .header-link:hover{
+    text-decoration: underline;
+    letter-spacing: 1.5px;
+  }
+  
+  #portfolio{
+    background-color: #155858;
+    color: white;
+    border: 0.1px solid white;
+  }
+  
+  #body-container {
+    display: grid;
+    grid-template-rows: 7% 1fr 7%;
+    height: 100%;
+  }
+  
+  #main-container {
+    background-image: url(/images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #center-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #141414;
+    height: auto;
+    width: 80%;
+   
+  }
+  
+  #main-icon-container{
+      display:flex;
+      justify-content: center;
+  }
+  
+  #secondary-icon-container{
+      display: grid;
+      grid-template-columns: 75px 75px 75px;
+      grid-template-rows: 50px 50px;
+      justify-items: center;
+      justify-content: center;
+      margin: 15px;
+  
+  }
+  
+  
+  p strong{
+      color: white;
+  }
+  
+  .fa-laptop-code{
+      color: white;
+      font-size: 40px;
+      padding: 15px 0px 0px 0px;
+  }
+  
+  .fab{
+      color: white;
+      font-size: 40px;
+  }
+  
+  #welcome-heading {
+    color: rgb(255, 255, 255);
+    font-family: "Inconsolata", monospace;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 100;
+  }
+  
+  #dev-container{
+      display: flex;
+  
+      justify-content: center;
+  }
+  
+  #dev-container p {
+    font-family: "Source Code Pro", monospace;
+    width: 75%;
+    border-radius: 5px;;
+    background-color: #33dcdd;
+    color: #1c4b43;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    text-align: center;
+  }
+  
+  #footer-container{
+      height: 100%;
+  }
+  
+  .footer-element{
+      display: flex;
+      height: 100%;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  
+
+  .footer-icon i{
+    font-size: 24px;
+    padding: 0px 5px 0px 0px;
+    margin: 0px;
+    border: 2px solid red;
+  
+  }
+  
+  
