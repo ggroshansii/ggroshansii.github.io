@@ -171,6 +171,30 @@
   .calc-main-section{
       background-image: url("/images/calculator.png");
       background-size: cover;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+
+  .rock-main-section{
+    background-image: url("/images/scissors.png");
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .etch-main-section{
+    background-image: url("/images/etchasketch.png");
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .course-main-section{
+    background-image: url("/images/coursesearch.png");
+    background-size: contain; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
   }
   
   #main-icon-container{
