@@ -1,0 +1,15 @@
+.buttons,
+.main .profile {
+		display: flex;
+		justify-content: left;
+		
+}
+
+.profile h1 {
+	font-size: 1.75em;
+}
+
+.profile img {
+	border-radius: 50%;
+  margin-bottom: 2rem;
+}

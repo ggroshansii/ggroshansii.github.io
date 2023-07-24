@@ -1,0 +1,15 @@
+baseURL: 'http://example.org/'
+languageCode: en-us
+theme: papermod
+
+params:
+  hideFooter: true
+  defaultTheme: light
+  profileMode: 
+    enabled: true
+    title: Garth Groshans II, PhD	
+    subtitle: "I am a software developer focusing in web and mobile development and enjoy data science as a hobbyist. I have academic degrees in the Earth Science where I also picked up geospatial skills. Other interests include guitar, hiking, and ...." 
+    imageUrl: "/img/headshot3.png"
+    imageWidth: 160
+    imageHeight: 160
+
