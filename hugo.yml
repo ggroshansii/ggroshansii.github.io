@@ -5,11 +5,25 @@ theme: papermod
 params:
   hideFooter: true
   defaultTheme: light
+  disableThemeToggle: true
   profileMode: 
     enabled: true
     title: Garth Groshans II, PhD	
     subtitle: "I am a software developer focusing in web and mobile development and enjoy data science as a hobbyist. I have academic degrees in the Earth Science where I also picked up geospatial skills. Other interests include guitar, hiking, and ...." 
-    imageUrl: "/img/headshot3.png"
+    imageUrl: "/img/headshot.png"
     imageWidth: 160
     imageHeight: 160
-
+    buttons:
+      - name: Blog
+        url: /blog/
+      - name: Projects
+        url: /projects/
+  socialIcons:
+    - name: CV
+      url: /cv.pdf
+    - name: Email
+      url: mailto:garthgroshansii@gmail.com
+    - name: GitHub
+      url: https://github.com/ggroshansii
+    - name: Linkedin
+      url: https://linkedin.com/in/garthgroshansii
